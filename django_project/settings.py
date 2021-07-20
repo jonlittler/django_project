@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
-    # 'ckeditor',
+    'ckeditor',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -168,8 +168,8 @@ EMAIL_HOST_PASSWORD = config['EMAIL_HOST_PASSWORD']
 # CKEDITORR
 CKEDITOR_CONFIGS = {
     'default': {
-        'toolbar': 'full',
-        'height': 300,
-        'width': 600,
+        'toolbar': 'Full',
+        'width': 'auto',
+        'height': '300',
     },
 }
